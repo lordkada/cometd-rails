@@ -1,7 +1,6 @@
 require "cometd/rails/version"
 
 module Cometd
-  p "CI PASSO!"
   module Rails
     if defined? ::Rails::Engine
       # auto wire assets as Rails Engine
