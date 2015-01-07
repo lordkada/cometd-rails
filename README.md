@@ -8,6 +8,11 @@ Add this line to your application's Gemfile:
 
     gem 'cometd-rails'
 
+### jQuery:
+
+    gem 'jquery-rails'
+    gem 'jquery-cookie-rails'
+
 And then execute:
 
     $ bundle
@@ -18,10 +23,12 @@ Or install it yourself as:
 
 ## Usage
 
+### jQuery
 Add to your applications.js:
 
+//= require jquery
+//= require jquery.cookie
 //= require cometd-jquery-rails
-
 
 ## Contributing
 
