@@ -1,6 +1,6 @@
 # Cometd::Rails
 
-TODO: Write a gem description
+CometD 3.0.3 Javascript wrapper for Rails
 
 ## Installation
 
