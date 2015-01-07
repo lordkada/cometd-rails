@@ -9,6 +9,7 @@ Add this line to your application's Gemfile:
     gem 'cometd-rails'
 
 ### jQuery:
+In order to use the CometD libraries with jQuery, be sure to add to your Gemfile also:
 
     gem 'jquery-rails'
     gem 'jquery-cookie-rails'
@@ -22,13 +23,15 @@ Or install it yourself as:
     $ gem install cometd-rails
 
 ## Usage
-
-### jQuery
 Add to your applications.js:
 
-//= require jquery
-//= require jquery.cookie
-//= require cometd-jquery-rails
+    //= require cometd-jquery-rails
+
+### jQuery
+Double check to have in your applications.js these lines too:
+
+    //= require jquery
+    //= require jquery.cookie
 
 ## Contributing
 
